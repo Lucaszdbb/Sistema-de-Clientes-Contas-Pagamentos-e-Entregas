@@ -33,13 +33,8 @@ O modelo foi implementado considerando as seguintes entidades e relacionamentos:
   - Atributos: Status (pendente, enviado, entregue), Código de Rastreamento.
   - Relacionamento N:1 com Conta (várias entregas por conta)
 
-## Instruções
 
-1. Clone o repositório.
-2. Importe o modelo em sua ferramenta ER/EER preferida.
-3. Caso deseje, utilize o script SQL para criação das tabelas no banco de dados.
-4. Customize conforme suas necessidades.
-## Exemplo de Script SQL (Modelo Lógico simplificado)
+## Script SQL (Modelo Lógico simplificado)
 CREATE TABLE ClientePF (
     CPF VARCHAR(11) PRIMARY KEY,
     Nome VARCHAR(100) NOT NULL,
